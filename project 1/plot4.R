@@ -3,7 +3,7 @@
 		 {
 		 
 		data <- load_data()
-		png("plot4.png", width=500, height=500)
+		png("plot4.png", width=480, height=480)
 		par(mfrow=c(2,2))	
 		#1
 		plot(data$Time, data$Global_active_power,type="l",xlab="",
